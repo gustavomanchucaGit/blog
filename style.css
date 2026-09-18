@@ -3,9 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.body{
+  background-color: #F5F9FD;
+}
 .container {
   display: grid;
   gap: 20px;
@@ -18,18 +21,21 @@
   justify-content: center;
 }
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  
+  font-size: 1.5rem;
  
  
 
 }
-.item {
-  border: 1px solid black;
+.item{
+  /* border: 1px solid black; */
   border-radius: 20px;
   height: 200px;
   width: auto;
   position: relative;
+  background-color: white;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  /* border: solid 1px black; */
 
 }
 
@@ -53,6 +59,7 @@ h1 {
   height: 320px;
  width: 100%;
   margin-bottom: 20px;
+  background: url(./assets/img/featured.jpg) no-repeat center/cover;
 }
 
 .item:nth-child(3) {
@@ -87,35 +94,33 @@ h1 {
   grid-column: 1/2;
   grid-row: 6/8;
  
-  border: solid 0.5px black;
 }
 
 .item:nth-child(8) {
   grid-column: 2/3;
   grid-row: 6/8;
   
-  border: solid 0.5px black;
 }
 
 .item:nth-child(9) {
   grid-column: 3/4;
   grid-row: 6/8;
   background: none;
-  border: solid 0.5px black;
+  
 }
 
 .item:nth-child(10) {
   grid-column: 4/5;
   grid-row: 6/8;
   background: none;
-  border: solid 0.5px black;
+  
 }
 
 .item:nth-child(11) {
   grid-column: 1/5;
   grid-row: 8/9;
   background: none;
-  border: solid 0.5px black;
+  
   height: 80px;
 }
 
@@ -136,11 +141,82 @@ h1 {
 .fa-code{
   color: #0F9EFD;
 }
+
+.tag_text{
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  
+}
+
+.tag_title{
+  color: #2E3D68;
+}
+
+.tag_text p{
+  color: #93B4D3;
+}
+
+.post2 > .circle_icon{
+  background-color: #FFF2D6;
+}
+
+.fa-pizza-slice{
+  color: #FEA929;
+}
+
+.post3 > .circle_icon{
+  background-color: #EADEFD;
+}
+
+.fa-laptop{
+  color: #9A55FB;
+}
+
+.post4 > .circle_icon{
+  background-color: #FEDEE6;
+}
+
+.fa-music{
+  color: #FD4E6F;
+}
+
+.post5 > .circle_icon{
+  background-color: #D7F4E4;
+}
+
+.fa-microphone-lines{
+  color: #00A042;
+}
+
+.post6 > .circle_icon{
+  background-color: #D4ECFE;
+}
+
+.fa-book-open{
+color: #0094FB;
+}
+
+.post7 > .circle_icon{
+  background-color: #FEE0E7;
+}
+
+.fa-heart{
+  color: #FD154A;
+}
+
+.post8 > .circle_icon{
+  background-color: #EAEDF5;
+}
+
+.fa-star{
+  color: #7789A6;
+}
 /* ///////////////  tablets  //////////////// */
 
 @media (min-width: 481px) and (max-width: 952px) {
   .container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .item:nth-child(even),
