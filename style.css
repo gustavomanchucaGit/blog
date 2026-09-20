@@ -30,18 +30,18 @@
 }
 
 .tag__title{
-  background-color: #7789a6;
+  background-color: #CBE2F3;
   width: fit-content;
   border-radius: 5px;
   padding: 2px 3px;
-  color: #01121db3;
+  color: #4C7AA2;
   font-size: small;
   
   
 }
 
 .featured__title > p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #1b4279;
 }
 .featured__title{
@@ -52,7 +52,7 @@
   top: 30%;
   left: 20px;
   font-size: 1rem;
-  color: #2e3d68;
+  color: #1D3251;
 }
 h1 {
   
