@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +5,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.body{
-  background-color: #F5F9FD;
+.body {
+  background-color: #f5f9fd;
 }
 .container {
   display: grid;
@@ -20,14 +19,22 @@
   /* margin: 0 auto; */
   justify-content: center;
 }
+
+
+.title  i { 
+  display: inline-block;
+ margin-right: 10px; 
+  vertical-align: top; 
+  
+ 
+}
 h1 {
   
   font-size: 1.5rem;
- 
- 
-
+  color: #1b4279;
+  margin-left: 10px;
 }
-.item{
+.item {
   /* border: 1px solid black; */
   border-radius: 20px;
   height: 200px;
@@ -36,7 +43,6 @@ h1 {
   background-color: white;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   /* border: solid 1px black; */
-
 }
 
 .item:nth-child(1) {
@@ -49,15 +55,13 @@ h1 {
   justify-content: left;
   align-content: center;
   background: transparent;
-  
-  
 }
 
 .item:nth-child(2) {
   grid-column: 1/5;
   grid-row: 2/4;
   height: 320px;
- width: 100%;
+  width: 100%;
   margin-bottom: 20px;
   background: url(./assets/img/featured.jpg) no-repeat center/cover;
 }
@@ -65,67 +69,53 @@ h1 {
 .item:nth-child(3) {
   grid-column: 1/2;
   grid-row: 4/6;
-  
-  
 }
 
 .item:nth-child(4) {
   grid-column: 2/3;
   grid-row: 4/6;
-  
- 
 }
 
 .item:nth-child(5) {
   grid-column: 3/4;
   grid-row: 4/6;
-  
-  
 }
 
 .item:nth-child(6) {
   grid-column: 4/5;
   grid-row: 4/6;
-  
-  
 }
 
 .item:nth-child(7) {
   grid-column: 1/2;
   grid-row: 6/8;
- 
 }
 
 .item:nth-child(8) {
   grid-column: 2/3;
   grid-row: 6/8;
-  
 }
 
 .item:nth-child(9) {
   grid-column: 3/4;
   grid-row: 6/8;
   background: none;
-  
 }
 
 .item:nth-child(10) {
   grid-column: 4/5;
   grid-row: 6/8;
   background: none;
-  
 }
 
 .item:nth-child(11) {
   grid-column: 1/5;
   grid-row: 8/9;
   background: none;
-  
   height: 80px;
 }
 
-
-.circle_icon{
+.circle_icon {
   position: absolute;
   left: 20px;
   top: 20px;
@@ -135,82 +125,110 @@ h1 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #D6EDFE;
+  background-color: #d6edfe;
 }
 
-.fa-code{
-  color: #0F9EFD;
+.fa-code {
+  color: #0f9efd;
 }
 
-.tag_text{
+.tag_text {
   position: absolute;
   top: 100px;
   left: 20px;
-  
 }
 
-.tag_title{
-  color: #2E3D68;
+.tag_title {
+  color: #2e3d68;
 }
 
-.tag_text p{
-  color: #93B4D3;
+.tag_text p {
+  color: #93b4d3;
 }
 
-.post2 > .circle_icon{
-  background-color: #FFF2D6;
+.post2 > .circle_icon {
+  background-color: #fff2d6;
 }
 
-.fa-pizza-slice{
-  color: #FEA929;
+.fa-pizza-slice {
+  color: #fea929;
 }
 
-.post3 > .circle_icon{
-  background-color: #EADEFD;
+.post3 > .circle_icon {
+  background-color: #eadefd;
 }
 
-.fa-laptop{
-  color: #9A55FB;
+.fa-laptop {
+  color: #9a55fb;
 }
 
-.post4 > .circle_icon{
-  background-color: #FEDEE6;
+.post4 > .circle_icon {
+  background-color: #fedee6;
 }
 
-.fa-music{
-  color: #FD4E6F;
+.fa-music {
+  color: #fd4e6f;
 }
 
-.post5 > .circle_icon{
-  background-color: #D7F4E4;
+.post5 > .circle_icon {
+  background-color: #d7f4e4;
 }
 
-.fa-microphone-lines{
-  color: #00A042;
+.fa-microphone-lines {
+  color: #00a042;
 }
 
-.post6 > .circle_icon{
-  background-color: #D4ECFE;
+.post6 > .circle_icon {
+  background-color: #d4ecfe;
 }
 
-.fa-book-open{
-color: #0094FB;
+.fa-book-open {
+  color: #0094fb;
 }
 
-.post7 > .circle_icon{
-  background-color: #FEE0E7;
+.post7 > .circle_icon {
+  background-color: #fee0e7;
 }
 
-.fa-heart{
-  color: #FD154A;
+.fa-heart {
+  color: #fd154a;
 }
 
-.post8 > .circle_icon{
-  background-color: #EAEDF5;
+.post8 > .circle_icon {
+  background-color: #eaedf5;
 }
 
-.fa-star{
-  color: #7789A6;
+.fa-star {
+  color: #7789a6;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-evenly;
+  font-size: 0.8rem;
+  color: #93b4d3;
+}
+
+.cc {
+  color: #93b4d3;
+}
+
+.cc a {
+  color: #93b4d3;
+}
+
+.fa-dev,
+.fa-square-github,
+.fa-square-x-twitter,
+.fa-square-instagram {
+  font-size: 2rem;
 }
 /* ///////////////  tablets  //////////////// */
 
@@ -223,10 +241,9 @@ color: #0094FB;
   .item:nth-child(odd) {
     grid-column: auto;
     grid-row: auto;
-    ;
   }
 
-   .title {
+  .title {
     position: relative;
   }
   .title h1 {
@@ -250,15 +267,13 @@ color: #0094FB;
   }
   .item {
     height: 200px;
-  } 
-
- 
+  }
 
   .title {
     position: relative;
   }
   .title h1 {
-    font-size:2rem;
+    font-size: 2rem;
     position: absolute;
     left: 73px;
   }
