@@ -18,6 +18,7 @@
   padding: 2rem;
   /* margin: 0 auto; */
   justify-content: center;
+  
 }
 
 
@@ -145,7 +146,7 @@ h1 {
   grid-column: 1/5;
   grid-row: 8/9;
   background: none;
-  height: 80px;
+  height: 60px;
 }
 
 .circle_icon {
@@ -242,32 +243,44 @@ h1 {
   color: #7789a6;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+
+
 footer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: space-evenly;
+  flex-direction: row;  
+  justify-content: space-evenly;
+  align-items: center;
   font-size: 0.8rem;
   color: #93b4d3;
+  
+}  
+
+.author{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cc {
   color: #93b4d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cc a {
   color: #93b4d3;
 }
 
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .fa-dev,
 .fa-square-github,
 .fa-square-x-twitter,
-.fa-square-instagram {
+.fa-square-instagram, .fa-linkedin {
   font-size: 2rem;
 }
 /* ///////////////  tablets  //////////////// */
