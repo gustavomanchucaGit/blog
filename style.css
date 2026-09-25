@@ -5,6 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+:root{
+  --icons: #93b4d3;
+}
 .body {
   background-color: #f5f9fd;
 }
@@ -21,6 +25,13 @@
   
 }
 
+a:link{
+  color: var(--icons) ;
+}
+
+a:visited{
+  color: var(--icons);
+}
 
 .title  i { 
   display: inline-block;
@@ -89,6 +100,8 @@ h1 {
   justify-content: left;
   align-content: center;
   background: transparent;
+ 
+  
 }
 
 .item:nth-child(2) {
@@ -252,6 +265,8 @@ footer {
   align-items: center;
   font-size: 0.8rem;
   color: #93b4d3;
+  position: absolute;
+  bottom: 10px;
   
 }  
 
