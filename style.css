@@ -47,6 +47,12 @@ a:visited {
   font-size: small;
 }
 
+
+.featured img{
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
 .featured__title > p {
   font-size: 1rem;
   color: #1b4279;
@@ -102,7 +108,7 @@ h1 {
   margin-bottom: 20px;
   /* background: url("https://live.staticflickr.com/65535/55553837150_58923ef430_b.jpg") no-repeat center/cover; */
 
-  /* background: url("https://live.staticflickr.com/65535/55538821438_f7bda234db_b.jpg") no-repeat center/cover;  */
+  background: url("https://live.staticflickr.com/65535/55538821438_f7bda234db_b.jpg") no-repeat center/cover;  
 
   /* background: url(./assets/img/student.jpg); */
 }
